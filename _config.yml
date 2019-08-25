@@ -9,3 +9,7 @@ url:
 permalink: :title/
 sass:
   sass_dir: css
+
+
+include:
+  - _pages
