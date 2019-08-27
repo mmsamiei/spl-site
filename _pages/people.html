@@ -25,4 +25,13 @@ permalink: /people
     {% include person_card.html member=member %}
     {% endfor %}
   </div>
+
+
+  <h1 class="py-3">Alumni</h1>
+  <div class="row">
+    {% for member in site.data.alumni %}
+    {% include person_card.html member=member %}
+    {% endfor %}
+  </div>
+
 </div>

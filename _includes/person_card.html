@@ -7,11 +7,18 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">{{include.member.first_name}} {{include.member.last_name}}</h5>
+
+          {% if include.member.position != NULL %}
+          <p class="card-text">{{member.position}}</p>
+          {% endif %}
+
+          {% if include.member.Thesis != NULL %}
           <p class="card-text">Thesis: {{member.Thesis}}</p>
+          {% endif %}
           <p class="card-text"><i class="far fa-envelope mr-1"></i><small class="text-muted">{{include.member.mail}}</small></p>
           {% if include.member.homepage != NULL %}
           <a href={{member.homepage}}>
-            <p class="card-text"><i class="fas fa-home"></i><small class="text-muted">include.homepage</small></p>
+            <p class="card-text"><i class="fas fa-home"></i><small class="text-muted">homepage</small></p>
           </a>
           {% endif %}
         </div>
