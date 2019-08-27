@@ -4,28 +4,12 @@ layout: default
 permalink: /people
 ---
 
-<div class="row">
 
+
+<h1 class="py-3">Master Students</h1>
+<div class="row">
   {% for member in site.data.master_students %}
-  <div class="col-lg-6 p-2">
-    <div class="card mb-3" style="max-width: 600px;">
-      <div class="row no-gutters">
-        <div class="col-md-4 text-center p-3">
-          <img src="https://i.pravatar.cc/300" class="card-img rounded-circle" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{{member.first_name}} {{member.last_name}}</h5>
-            <p class="card-text">{{member.Thesis}}</p>
-            <p class="card-text"><i class="far fa-envelope mr-1"></i><small class="text-muted">{{member.mail}}</small></p>
-            {% if member.homepage != NULL %}
-            <a href={{member.homepage}}><p class="card-text"><i class="fas fa-home"></i><small class="text-muted">homepage</small></p></a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    {% include person_card.html member=member %}
   {% endfor %}
 </div>
 
