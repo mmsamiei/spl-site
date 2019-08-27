@@ -1,14 +1,21 @@
 - first_name: ali
   last_name: karimi
-  mail: ali_karimi@gmail.com
-  Thesis: data augmention in nlp
+  mail:      ali_karimi[at]gmail.com
+  Thesis:    data augmention in nlp
+
 
 - first_name: Mahdi
   last_name: Samiei
-  mail: mohmahsamiei@gmail.com
-  Thesis: dialog systems
+  mail:      mohmahsamiei[at]gmail.com
+  Thesis:    design a open-domain knowledge grounded dialog system
+  homepage: "http://ce.sharif.ir/~samiei/"
 
 - first_name: amin
   last_name: ketabchi
-  mail: ketabchi@yahoo.com
-  Thesis: social networks
+  mail:      ketabchi[at]yahoo.com
+  Thesis:    social networks
+
+- first_name: hamed
+  last_name: jamshid
+  mail:      jamshid[at]yahoo.com
+  Thesis:    speech
