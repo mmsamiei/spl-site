@@ -3,17 +3,26 @@ title: "SPL Lab - People"
 layout: default
 permalink: /people
 ---
-
-
-
-<h1 class="py-3">Master Students</h1>
-<div class="row">
-  {% for member in site.data.master_students %}
+<div class="container">
+  <h1 class="py-3">Professors</h1>
+  <div class="row">
+    {% for member in site.data.professor %}
     {% include person_card.html member=member %}
-  {% endfor %}
+    {% endfor %}
+  </div>
+
+  <h1 class="py-3">PHD Students</h1>
+  <div class="row">
+    {% for member in site.data.phd_students %}
+    {% include person_card.html member=member %}
+    {% endfor %}
+  </div>
+
+
+  <h1 class="py-3">Master Students</h1>
+  <div class="row">
+    {% for member in site.data.master_students %}
+    {% include person_card.html member=member %}
+    {% endfor %}
+  </div>
 </div>
-
-{% for member in site.data.phd_students %}
-{{member.first_name }}
-
-{% endfor %}
