@@ -3,9 +3,17 @@ layout: default
 ---
 
 <div id="homeid" class="col-sm-8">
-  <h1 class="py-2">Welcome to the SPL lab!</h1>
+  <h1 class="pd-2 pt-4">Welcome to the SPL lab!</h1>
   {{content}}
 </div>
-<div id="newsid" class="col-sm-4">
-
+<div id="newsid" class="col-sm-4 p-4">
+  <ul>
+    {% assign sorted = (site.posts | sort: 'date') | reverse %}
+    {% for post in sorted %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
