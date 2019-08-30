@@ -10,9 +10,9 @@ layout: default
   <ul>
     {% assign sorted = (site.posts | sort: 'date') | reverse %}
     {% for post in sorted limit:9 %}
-    <li>
-      <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}</strong></a>
-      <p>{{post.excerpt}}</p>
+    <li class="mt-2">
+      <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}<small class="m-0"> at {{ post.date | date: "%a, %b %d, %Y" }}</small></strong></a>
+      {{post.excerpt}}
     </li>
     {% endfor %}
   </ul>
