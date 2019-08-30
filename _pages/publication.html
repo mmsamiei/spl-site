@@ -1,0 +1,16 @@
+---
+title: "SPL Lab - People"
+layout: default
+permalink: /publication
+---
+<div class="container mt-2">
+  <div class="row">
+    {% for paper in site.data.publications %}
+    <div class="m-1 p-1 border-1 bg-dark text-light">
+      <p class="m-0">{{paper.authors}}. {{paper.at}}</p>
+      <p class="font-weight-bold m-0">{{paper.title}}</p>
+      <p>{{paper.conference}} {{paper.journal}} <a class="font-italic font-weight-light m-0"href="{{paper.link}}">paper link</a></p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
