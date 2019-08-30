@@ -12,7 +12,7 @@ layout: default
     {% for post in sorted limit:9 %}
     <li>
       <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}</strong></a>
-      {{ post.excerpt }}
+      <p>{{post.excerpt}}</p>
     </li>
     {% endfor %}
   </ul>
