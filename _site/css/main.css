@@ -10,6 +10,9 @@
 .card-img {
   max-width: 250px; }
 
+#main_wrapper {
+  min-height: 52vh; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

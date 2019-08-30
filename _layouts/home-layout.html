@@ -6,14 +6,14 @@ layout: default
   <h1 class="pd-2 pt-4">Welcome to the SPL lab!</h1>
   {{content}}
 </div>
-<div id="newsid" class="col-sm-4 p-4">
+<div id="newsid" class="col-sm-4 mt-4 bg-success text-white-50 border border-white rounded">
   <ul>
     {% assign sorted = (site.posts | sort: 'date') | reverse %}
-    {% for post in sorted %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-      </li>
+    {% for post in sorted limit:9 %}
+    <li>
+      <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}</strong></a>
+      {{ post.excerpt }}
+    </li>
     {% endfor %}
   </ul>
 </div>
