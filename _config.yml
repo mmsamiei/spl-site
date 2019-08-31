@@ -3,7 +3,8 @@ title:
 email:
 author:
 description:
-url:
+baseurl: ""
+url: ""
 
 # Build settings
 permalink: :title/
