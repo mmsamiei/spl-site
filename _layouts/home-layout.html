@@ -6,16 +6,24 @@ layout: default
   <h1 class="pd-2 pt-4">Welcome to the SPL lab!</h1>
   {{content}}
 </div>
-<div id="newsid" class="col-sm-4 mt-4 bg-success text-white-50 border border-white rounded">
-  <ul>
+<div id="newsid" class="col-sm-4 mt-4 border border-white rounded">
+  <h2 class="border-bottom border-success pb-3">
+    Recent News
+  </h2>
+
+  <div class="list-group">
     {% assign sorted = (site.posts | sort: 'date') | reverse %}
-    {% for post in sorted limit:9 %}
-    <li class="mt-2">
-      <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}<small class="m-0"> at {{ post.date | date: "%a, %b %d, %Y" }}</small></strong></a>
-      <p>
-        {{ post.excerpt | strip_html | truncatewords:20 }}
-      </p>
-    </li>
+    {% for post in sorted limit:5 %}
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ post.title }}</h5>
+        <small>{{ post.date | date_to_string }}</small>
+      </div>
+      <p class="mb-1"> {{ post.excerpt | strip_html | truncatewords:15 }} </p>
+      <small>Donec id elit non mi porta.</small>
+    </a>
     {% endfor %}
-  </ul>
+
+  </div>
+
 </div>
