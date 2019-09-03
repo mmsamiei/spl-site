@@ -12,7 +12,9 @@ layout: default
     {% for post in sorted limit:9 %}
     <li class="mt-2">
       <a href="{{ post.url }}" class="text-light"><strong>{{ post.title }}<small class="m-0"> at {{ post.date | date: "%a, %b %d, %Y" }}</small></strong></a>
-      {{post.excerpt}}
+      <p>
+        {{ post.excerpt | strip_html | truncatewords:20 }}
+      </p>
     </li>
     {% endfor %}
   </ul>
