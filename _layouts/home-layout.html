@@ -19,8 +19,7 @@ layout: default
         <h5 class="mb-1">{{ post.title }}</h5>
         <small>{{ post.date | date_to_string }}</small>
       </div>
-      <p class="mb-1"> {{ post.excerpt | strip_html | truncatewords:15 }} </p>
-      <small>Donec id elit non mi porta.</small>
+      <p class="mb-1"> {{ post.excerpt | strip_html | truncatewords:20 }} </p>
     </a>
     {% endfor %}
 
