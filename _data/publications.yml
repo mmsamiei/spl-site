@@ -1,18 +1,18 @@
 - title:      "Speaker Recognition with Random Digit Strings Using Uncertainty Normalized HMM-based i-vectors"
   authors:    "Hossein Sameti, Hamid Sheikhzadeh, Li Deng, Robert L Brennan"
-  at:       2019-07-11
+  date:       2019-07-11
   journal:    "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
   link:       https://arxiv.org/pdf/1907.06111
 
 
 - title: "Ghmerti at SemEval-2019 Task 6: A Deep Word-and Character-based Approach to Offensive Language Identification"
   authors:    "Hadi Veisi, Hossein Sameti"
-  at:       2019-06-11
+  date:       2019-06-11
   conference: "Proceedings of the 13th International Workshop on Semantic Evaluation"
   link:       https://www.aclweb.org/anthology/S19-2110
 
 - title:      "Persian Keyphrase Generation Using Sequence-to-Sequence Models"
   authors:    "Li Deng, Hossein Sameti"
-  at:       2019-04-30
+  date:       2019-04-30
   conference: "2019 27th Iranian Conference on Electrical Engineering (ICEE)"
   link:       https://www.researchgate.net/profile/Ehsan_Doostmohammadi/publication/334937335_Persian_Keyphrase_Generation_Using_Sequence-to-sequence_Models/links/5d452e47a6fdcc370a76c55b/Persian-Keyphrase-Generation-Using-Sequence-to-sequence-Models.pdf

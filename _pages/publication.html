@@ -5,9 +5,10 @@ permalink: /publication
 ---
 <div class="container mt-2">
   <div class="row">
-    {% for paper in site.data.publications %}
+    {% assign papers =  site.data.publications | sort: "date" | reverse  %}
+    {% for paper in papers %}
     <div class="m-1 p-1 rounded border-1 bg-olive text-dark">
-      <p class="m-0">{{paper.authors}}. <small> {{paper.at |‌ date_to_string}} </small> </p>
+      <p class="m-0">{{paper.authors}}. <small> {{paper.date |‌ date_to_string}} </small> </p>
       <p class="font-weight-bold m-0">{{paper.title}}</p>
       <p class="m-1">{{paper.conference}} {{paper.journal}} <a class="font-italic btn-success p-1 font-weight-light m-0"href="{{paper.link}}">paper-link</a></p>
     </div>
