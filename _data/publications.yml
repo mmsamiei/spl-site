@@ -1,18 +1,61 @@
-- title:      "Speaker Recognition with Random Digit Strings Using Uncertainty Normalized HMM-based i-vectors"
-  authors:    "Hossein Sameti, Hamid Sheikhzadeh, Li Deng, Robert L Brennan"
-  date:       2019-07-11
-  journal:    "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
-  link:       https://arxiv.org/pdf/1907.06111
+- title:        "Speaker Recognition with Random Digit Strings Using Uncertainty Normalized HMM-based i-vectors"
+  authors:      "Hossein Sameti, Hamid Sheikhzadeh, Li Deng, Robert L Brennan"
+  date:         2019-07-11
+  journal:      "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+  link:         https://arxiv.org/pdf/1907.06111
 
 
 - title: "Ghmerti at SemEval-2019 Task 6: A Deep Word-and Character-based Approach to Offensive Language Identification"
-  authors:    "Hadi Veisi, Hossein Sameti"
-  date:       2019-06-11
-  conference: "Proceedings of the 13th International Workshop on Semantic Evaluation"
-  link:       https://www.aclweb.org/anthology/S19-2110
+  authors:      "Hadi Veisi, Hossein Sameti"
+  date:         2019-06-11
+  conference:   "Proceedings of the 13th International Workshop on Semantic Evaluation"
+  link:         https://www.aclweb.org/anthology/S19-2110
 
-- title:      "Persian Keyphrase Generation Using Sequence-to-Sequence Models"
-  authors:    "Li Deng, Hossein Sameti"
-  date:       2019-04-30
-  conference: "2019 27th Iranian Conference on Electrical Engineering (ICEE)"
-  link:       https://www.researchgate.net/profile/Ehsan_Doostmohammadi/publication/334937335_Persian_Keyphrase_Generation_Using_Sequence-to-sequence_Models/links/5d452e47a6fdcc370a76c55b/Persian-Keyphrase-Generation-Using-Sequence-to-sequence-Models.pdf
+- title:        "Persian Keyphrase Generation Using Sequence-to-Sequence Models"
+  authors:      "Li Deng, Hossein Sameti"
+  date:         2019-04-30
+  conference:   "2019 27th Iranian Conference on Electrical Engineering (ICEE)"
+  link:         https://www.researchgate.net/profile/Ehsan_Doostmohammadi/publication/334937335_Persian_Keyphrase_Generation_Using_Sequence-to-sequence_Models/links/5d452e47a6fdcc370a76c55b/Persian-Keyphrase-Generation-Using-Sequence-to-sequence-Models.pdf
+
+- title:        "Improving LF-MMI Using Unconstrained Supervisions for ASR"
+  authors:      "Hossein Hadian, Daniel Povey, Hossein Sameti, Jan Trmal, Sanjeev Khudanpur"
+  date:         2018-12-18
+  conference:   "2018 IEEE Spoken Language Technology Workshop (SLT)"
+  link:         nodirapovey.com/files/2018_slt_unconstrained.pdf
+
+- title:      "PerKey: A Persian News Corpus for Keyphrase Extraction and Generation"
+  authors:      "Ehsan Doostmohammadi, Mohammad Hadi Bokaei, Hossein Sameti"
+  date:         2018-12-17
+  conference:   "2018 9th International Symposium on Telecommunications (IST)"
+  link:         https://ieeexplore.ieee.org/abstract/document/8661095/
+
+- title:        "Spoken pass-phrase verification in the i-vector space"
+  authors:      "Hossein Zeinali, Lukas Burget, Hossein Sameti, Jan Cernocky"
+  date:         2018-09-28
+  link:         https://arxiv.org/pdf/1809.11068
+
+
+- title:        "Flat-start single-stage discriminatively trained HMM-based models for ASR"
+  authors:      "Hossein Hadian, Hossein Sameti, Daniel Povey, Sanjeev Khudanpur"
+  date:         2018-06-18
+  journal:      "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+  link:         https://ieeexplore.ieee.org/abstract/document/8387866/
+
+- title:        "A Generalized Audio Identification System Using Adaptive Filters"
+  authors:      "Saeed Yazdanian, Hossein Sameti, Ali Alidoust"
+  date:         2018-05-08
+  conference:   "Electrical Engineering (ICEE), Iranian Conference on"
+  link:         https://ieeexplore.ieee.org/abstract/document/8472620/
+
+- title:      "DeepMine Speech Processing Database: Text-Dependent and Independent Speaker Verification and Speech Recognition in Persian and English."
+  authors:      "Hossein Zeinali, Hossein Sameti, Themos Stafylakis"
+  date:         2018-05-01
+  conference:   "Odyssey"
+  link:         https://www.researchgate.net/profile/Hossein_Zeinali/publication/324518056_DeepMine_Speech_Processing_Database_Text-Dependent_and_Independent_Speaker_Verification_and_Speech_Recognition_in_Persian_and_English/links/5ad1dc8aaca272fdaf780c1e/DeepMine-Speech-Processing-Database-Text-Dependent-and-Independent-Speaker-Verification-and-Speech-Recognition-in-Persian-and-English.pdf
+
+
+- title:      "End-to-end Speech Recognition Using Lattice-free MMI."
+  authors:    "Hossein Hadian, Hossein Sameti, Daniel Povey, Sanjeev Khudanpur"
+  date:       2018-04-30
+  conference: "Interspeech"
+  link:       https://pdfs.semanticscholar.org/dcae/b29ad3307e2bdab2218416c81cb0c4e548b2.pdf
