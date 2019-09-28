@@ -1,0 +1,23 @@
+<table class="table table-striped text-right" style="direction: RTL;">
+  <thead class="bg-blue text-white">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">نام دانشجو</th>
+      <th scope="col">سال</th>
+      <th scope="col">عنوان</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign projects =  site.data.projects | sort: "year" | reverse  %}
+    {% assign my_counter = 0 %}
+    {% for project in projects %}
+    {% assign my_counter = my_counter | plus: 1 %}
+    <tr>
+      <th scope="row">{{ my_counter}}</th>
+      <td>{{project.student}}</td>
+      <td>{{project.year}}</td>
+      <td>{{project.persian-title}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
