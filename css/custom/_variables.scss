@@ -7,18 +7,22 @@ $theme-colors: (
   "red": #ff1654
 );
 
-* {
+:lang(en) {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.card-img{
-  max-width: 250px
+:lang(pe){
+  font-family: 'Almarai', sans-serif;
 }
 
-#main_wrapper{
+.card-img {
+  max-width: 250px;
+}
+
+#main_wrapper {
   min-height: 52vh;
 }
 
-#news-content{
+#news-content {
   text-indent: 20px;
 }
