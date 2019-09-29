@@ -26,3 +26,21 @@ $theme-colors: (
 #news-content {
   text-indent: 20px;
 }
+
+a:link {
+ text-decoration: none;
+ color: inherit;
+}
+
+a:visited {
+ text-decoration: none;
+ color: inherit;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a:active {
+ text-decoration: underline;
+}

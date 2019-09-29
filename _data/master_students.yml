@@ -2,6 +2,7 @@
   last_name: karimi
   mail:      ali_karimi[at]gmail.com
   Thesis:    data augmention in nlp
+  img: "male.jpg"
 
 
 - first_name: Mahdi
@@ -9,13 +10,16 @@
   mail:      mohmahsamiei[at]gmail.com
   Thesis:    design a open-domain knowledge grounded dialog system
   homepage: "http://ce.sharif.ir/~samiei/"
+  img: "male.jpg"
 
 - first_name: amin
   last_name: ketabchi
   mail:      ketabchi[at]yahoo.com
   Thesis:    social networks
+  img: "male.jpg"
 
 - first_name: hamed
   last_name: jamshid
   mail:      jamshid[at]yahoo.com
   Thesis:    speech
+  img: "male.jpg"
