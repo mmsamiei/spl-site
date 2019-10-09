@@ -17,6 +17,7 @@ WELCOME to Speech Processing Laboratory **(SPL)**
 Other speech-based solutions are available on the lab's partner [ASR Gooyesh Pardaz](http://asr-gooyesh.com) Co. web site.
 
 For more information about the projects of this group follow Projects page. Experts in this group are working on various digital speech related research areas such as Speech Enhancement and Speech Synthesis. The summary of the fields of activity of this group are:
+* Dialog Systems
 * Digital Speech Processing
 * Robust Speech Recognition
 * Speech Synthesis (Text-To-Speech)
