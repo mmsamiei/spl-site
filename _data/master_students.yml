@@ -1,8 +1,8 @@
-- first_name: ali
-  last_name: karimi
+- first_name: Ali
+  last_name: Karimi
   mail:      ali_karimi[at]gmail.com
   Thesis:    data augmention in nlp
-  img: "male.jpg"
+  img: "karimi.jpg"
 
 
 - first_name: Mahdi
@@ -16,10 +16,10 @@
   last_name: ketabchi
   mail:      ketabchi[at]yahoo.com
   Thesis:    social networks
-  img: "male.jpg"
+  img: "ketabchi.jpg"
 
-- first_name: hamed
-  last_name: jamshid
+- first_name: Hamed
+  last_name: Jamshid
   mail:      jamshid[at]yahoo.com
   Thesis:    speech
-  img: "male.jpg"
+  img: "jamshidian.jpeg"

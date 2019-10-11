@@ -1,18 +1,18 @@
-- first_name: elham
-  last_name: seyfossadat
-  mail: elham@gmail.com
+- first_name: Elham
+  last_name: Seyfossadat
+  mail:
   Thesis: nlp - generation
   img: "male.jpg"
 
-- first_name: sajjad
-  last_name: shahsavari
-  mail: shahsavari@gmail.com
+- first_name: Sajjad
+  last_name: Shahsavari
+  mail: 
   Thesis: Speech Activity Detection using deep neural networks
   homepage: https://www.linkedin.com/in/sajad-shahsavari-64941661/
   img: "shahsavari.jpg"
 
-- first_name: leyla
-  last_name: khalatbari
-  mail: khalatbari@yahoo.com
-  Thesis: bio
+- first_name: Leyla
+  last_name: Khalatbari
+  mail:
+  Thesis:
   img: "male.jpg"
