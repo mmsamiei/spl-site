@@ -1,15 +1,21 @@
-- first_name: Elham
-  last_name: Seyfossadat
-  mail:
-  Thesis: nlp - generation
-  img: "male.jpg"
+- first_name: Nooshin
+  last_name: Maghsoodi
+  mail: nooshinmaghsoodi [at] gmail
+  Thesis: Uncertainty reduction in short utterance speaker verification
+  img: "maghsoodi.jpg"
 
 - first_name: Sajjad
   last_name: Shahsavari
-  mail: 
+  mail: mrshahsavari [at] ce.sharif.edu
   Thesis: Speech Activity Detection using deep neural networks
   homepage: https://www.linkedin.com/in/sajad-shahsavari-64941661/
   img: "shahsavari.jpg"
+
+- first_name: Elham
+  last_name: Seyfossadat
+  mail:
+  Thesis:
+  img: "male.jpg"
 
 - first_name: Leyla
   last_name: Khalatbari

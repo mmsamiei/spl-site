@@ -1,9 +1,10 @@
-- first_name: hamed
-  last_name: safari
-  mail: safari@gmail.com
-  Thesis: question answering
-  position: Now At Tehran university
+- first_name: Adel
+  last_name: Rahimi
+  mail: Rahimi.adel@gmail.com
+  Thesis: Language Modelling using Recurrent Neural Networks
+  position: Currently working as a Sr Data Scientist at Dathena.io
   img: "male.jpg"
+  homepage: www.adelr.ir
 
 - first_name: alireza
   last_name: hajitabra
@@ -12,3 +13,17 @@
   position: Now At Company
   img: "hajitabar.jpg"
   homepage: https://satelarm.com/#/alireza-hajitabar
+
+- first_name: Ehsan
+  last_name: Doostmohammadi
+  mail: edmb72@gmail.com
+  Thesis: Multidocument Keyphrase Extraction Using Recurrent Neural Networks
+  position: Now At Company
+  img: "doostmohammadi.jpg"
+
+- first_name: Seyed Mohammad Pourbagheri
+  last_name: Pourbagheri
+  mail: mhmd.pourbagheri@gmail.com
+  Thesis: Language modeling for Persian using recurrent neural networks
+  position: Now PHD Student At Iran University of Science and Technology
+  img: "pourbagheri.jpg"

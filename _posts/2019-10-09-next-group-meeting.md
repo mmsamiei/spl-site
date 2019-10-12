@@ -4,4 +4,4 @@ title: next group meeting
 layout: post-layout
 ---
 
-The next laboratory meeting will take place on Tuesday, October 5. The topic of this meeting is the Dialogue Systems, which is presented by Mr. Mehdi Samii
+The next laboratory meeting will take place on Tuesday, October 5. The topic of this meeting is the Dialogue Systems, which is presented by Mr. Mahdi Samiei

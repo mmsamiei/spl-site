@@ -1,7 +1,7 @@
 - first_name: Ali
   last_name: Karimi
-  mail:      ali_karimi[at]gmail.com
-  Thesis:    data augmention in nlp
+  mail:      ali1374karimi@gmail.com
+  Thesis:    Deep semi-supervised text classification
   img: "karimi.jpg"
 
 
@@ -12,14 +12,8 @@
   homepage: "http://ce.sharif.ir/~samiei/"
   img: "samiei.jpg"
 
-- first_name: amin
-  last_name: ketabchi
-  mail:      ketabchi[at]yahoo.com
-  Thesis:    social networks
-  img: "ketabchi.jpg"
-
-- first_name: Hamed
-  last_name: Jamshid
-  mail:      jamshid[at]yahoo.com
-  Thesis:    speech
-  img: "jamshidian.jpeg"
+- first_name: Mohammad Javad
+  last_name: Khodabandeh
+  mail: mj.khodabandeh@outlook.com
+  Thesis:
+  img: "khodabandeh.jpg"
