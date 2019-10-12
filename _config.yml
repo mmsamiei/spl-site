@@ -1,10 +1,10 @@
 # Site settings
-title:
-email:
+title: SPL
+email: 
 author:
 description:
-baseurl: "/~samiei"
-url: "http://ce.sharif.ir"
+baseurl: ""
+url: "http://spl.ce.sharif.ir"
 
 # Build settings
 permalink: :title/
