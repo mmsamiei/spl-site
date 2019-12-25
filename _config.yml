@@ -4,7 +4,7 @@ email:
 author:
 description:
 baseurl: ""
-url: "http://spl.ce.sharif.ir"
+url: "http://spl.ce.sharif.edu"
 
 # Build settings
 permalink: :title/
